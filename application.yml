@@ -1,2 +1,10 @@
 application:
   message: Configured by Azure Spring Cloud
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins:"*"
+            allowedMethods:"*"

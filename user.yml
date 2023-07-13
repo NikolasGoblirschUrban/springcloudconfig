@@ -1,0 +1,12 @@
+application:
+  name: userservice
+  message: Configured by Azure Spring Cloud
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        add-to-simple-url-handler-mapping: true
+  jms:
+    servicebus:
+      connection-string: Endpoint=sb://goalsservice.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WSJdd5dkKAAs2SKz6qpaD4WlLbr2ssOpx+ASbP9dDdA=
+      pricing-tier: standard

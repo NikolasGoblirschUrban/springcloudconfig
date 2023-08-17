@@ -11,8 +11,9 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-        ddl-auto: none
-        show-sql: false
+    hibernate:
+      ddl-auto: none
+      show-sql: false
   jms:
     servicebus:
       connection-string: Endpoint=sb://goalsservice.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WSJdd5dkKAAs2SKz6qpaD4WlLbr2ssOpx+ASbP9dDdA=

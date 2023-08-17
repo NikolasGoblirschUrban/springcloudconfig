@@ -4,7 +4,7 @@ application:
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://user-microservice-db.mysql.database.azure.com:3306/items
+    url: jdbc:mysql://user-microservice-db.mysql.database.azure.com:3306/users
     username: spring
     password: UserAdmin123!
   jpa:

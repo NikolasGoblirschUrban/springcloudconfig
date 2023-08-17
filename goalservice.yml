@@ -6,11 +6,6 @@ spring:
     gateway:
       globalcors:
         add-to-simple-url-handler-mapping: true
-  datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://goals-microservice-db.mysql.database.azure.com:3306/goals
-    username: spring
-    password: GoalsAdmin123!
   jms:
     servicebus:
       connection-string: Endpoint=sb://goalsservice.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WSJdd5dkKAAs2SKz6qpaD4WlLbr2ssOpx+ASbP9dDdA=

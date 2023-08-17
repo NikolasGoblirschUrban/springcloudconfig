@@ -14,6 +14,10 @@ spring:
   security:
     basic:
       enabled: false
+  logging:
+    level:
+      org:
+        springframework: DEBUG
   jms:
     servicebus:
       connection-string: Endpoint=sb://goalsservice.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WSJdd5dkKAAs2SKz6qpaD4WlLbr2ssOpx+ASbP9dDdA=

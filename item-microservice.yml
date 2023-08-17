@@ -2,10 +2,17 @@ application:
   name: itemservice
   message: Configured by Azure Spring Cloud
 spring:
-  cloud:
-    gateway:
-      globalcors:
-        add-to-simple-url-handler-mapping: true
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://item-microservice-db.mysql.database.azure.com:3306/items
+    username: spring
+    password: ItemAdmin123!
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+    hibernate:
+      ddl-auto: none
   jms:
     servicebus:
       connection-string: Endpoint=sb://goalsservice.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WSJdd5dkKAAs2SKz6qpaD4WlLbr2ssOpx+ASbP9dDdA=

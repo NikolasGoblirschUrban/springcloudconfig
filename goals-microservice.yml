@@ -18,3 +18,22 @@ spring:
       connection-string: Endpoint=sb://goalsservice.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WSJdd5dkKAAs2SKz6qpaD4WlLbr2ssOpx+ASbP9dDdA=
       pricing-tier: standard
       topic-client-id: 6ea22758-6c80-4841-88dc-182bf540d7e0
+      uuids:
+  goal-type:
+    performance-goal: 32fbd6b5-cfe6-11ed-bfbd-1bfead64f085
+    benchmarking-goal: 3319e67f-cfe6-11ed-bfbd-1bfead64f085
+    self-comparison-goal: 330aa72c-cfe6-11ed-bfbd-1bfead64f085
+  measurement-unit:
+    count: 165e8fb8-cfc9-11ed-bfbd-1bfead64f085
+  group-comparator:
+    best: 4c1487e7-cfb7-11ed-bfbd-1bfead64f085
+    worst: 4c274655-cfb7-11ed-bfbd-1bfead64f085
+    average: 2f3ccc34-cfb7-11ed-bfbd-1bfead64f085
+  comparator:
+    more: ebfeff5f-cfc7-11ed-bfbd-1bfead64f085
+    less: ec127eb7-cfc7-11ed-bfbd-1bfead64f085
+    equal: ec287075-cfc7-11ed-bfbd-1bfead64f085
+  goal-status:
+    in-progress: 984e037f-cff8-11ed-bfbd-1bfead64f085
+    completed: 9841ebef-cff8-11ed-bfbd-1bfead64f085
+    failed: 985c2dbc-cff8-11ed-bfbd-1bfead64f085

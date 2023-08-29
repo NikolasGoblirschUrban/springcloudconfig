@@ -18,3 +18,9 @@ spring:
       connection-string: Endpoint=sb://goalsservice.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WSJdd5dkKAAs2SKz6qpaD4WlLbr2ssOpx+ASbP9dDdA=
       pricing-tier: standard
       topic-client-id: 6ea22758-6c80-4841-88dc-182bf540d7e0
+uuids:
+  user-type: 
+    volunteer: c1ee82fa-35d6-11ee-b0c3-d65d517f8931
+    npo: d0f055d5-35d6-11ee-b0c3-d65d517f8931
+    partner: d7755d26-35d6-11ee-b0c3-d65d517f8931
+    group: cb7f53c5-35d6-11ee-b0c3-d65d517f8931
